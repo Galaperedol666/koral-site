@@ -1,0 +1,18 @@
+[
+  {
+    "id": "mattress-001",
+    "name": "Матрац Comfort",
+    "price": 5000,
+    "image": "../static/img/mattresses/comfort.jpg",
+    "description": "Ортопедичний матрац середньої жорсткості.",
+    "tags": ["матрац", "ортопедичний", "comfort"]
+  },
+  {
+    "id": "mattress-002",
+    "name": "Матрац Premium",
+    "price": 8500,
+    "image": "../static/img/mattresses/premium.jpg",
+    "description": "Матрац з незалежними пружинами та ефектом пам’яті.",
+    "tags": ["premium", "memory foam", "матрац"]
+  }
+]

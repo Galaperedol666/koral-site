@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sofa-001",
+    "name": "Диван Relax",
+    "price": 14000,
+    "image": "../static/img/sofas/relax.jpg",
+    "description": "Зручний диван з розкладним механізмом.",
+    "tags": ["диван", "розкладний", "зручний"]
+  },
+  {
+    "id": "sofa-002",
+    "name": "Диван Loft",
+    "price": 16000,
+    "image": "../static/img/sofas/loft.jpg",
+    "description": "Диван у стилі лофт з металевими ніжками.",
+    "tags": ["loft", "диван", "метал"]
+  }
+]

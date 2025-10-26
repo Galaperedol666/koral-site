@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main   # або master, залежно від твоєї гілки
+
+media_folder: "static/img/uploads"
+public_folder: "/static/img/uploads"
+
+collections:
+  - name: "kitchens"
+    label: "Кухні"
+    file: "static/data/kitchens.json"
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
+
+  - name: "wardrobes"
+    label: "Шафи"
+    file: "static/data/wardrobes.json"
+    fields: *id [same as above]*
+
+  - name: "commodes"
+    label: "Комоди"
+    file: "static/data/commodes.json"
+    fields: *id
+
+  - name: "living"
+    label: "Вітальні"
+    file: "static/data/living.json"
+    fields: *id
+
+  - name: "shelves"
+    label: "Полки"
+    file: "static/data/shelves.json"
+    fields: *id
+
+  - name: "beds"
+    label: "Ліжка"
+    file: "static/data/beds.json"
+    fields: *id
+
+  - name: "sofas"
+    label: "Дивани"
+    file: "static/data/sofas.json"
+    fields: *id
+
+  - name: "mattresses"
+    label: "Матраци"
+    file: "static/data/mattresses.json"
+    fields: *id
+
+  - name: "tables"
+    label: "Столи"
+    file: "static/data/tables.json"
+    fields: *id
+
+  - name: "cabinets"
+    label: "Тумби"
+    file: "static/data/cabinets.json"
+    fields: *id

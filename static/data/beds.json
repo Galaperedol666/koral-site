@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bed-001",
+    "name": "Ліжко King Size",
+    "price": 15000,
+    "image": "../static/img/beds/king.jpg",
+    "description": "Велике двоспальне ліжко з м’яким узголів’ям.",
+    "tags": ["ліжко", "king size", "м’яке узголів’я"]
+  },
+  {
+    "id": "bed-002",
+    "name": "Ліжко Minimal",
+    "price": 12000,
+    "image": "../static/img/beds/minimal.jpg",
+    "description": "Мінімалістичне ліжко з дерев’яним каркасом.",
+    "tags": ["мінімалізм", "дерево", "ліжко"]
+  }
+]

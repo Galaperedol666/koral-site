@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cabinet-001",
+    "name": "Тумба під ТВ",
+    "price": 4800,
+    "image": "../static/img/cabinets/tv.jpg",
+    "description": "Тумба під телевізор з полицями та шухлядами.",
+    "tags": ["тумба", "тв", "полиця"]
+  },
+  {
+    "id": "cabinet-002",
+    "name": "Тумба Minimal",
+    "price": 4200,
+    "image": "../static/img/cabinets/minimal.jpg",
+    "description": "Мінімалістична тумба з білими фасадами.",
+    "tags": ["мінімалізм", "тумба", "білий"]
+  }
+]

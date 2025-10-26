@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Каталог — Корал | Меблі на замовлення</title>
+  <meta name="description" content="Оберіть категорію меблів: кухні, шафи, дивани, ліжка, комоди, столи, матраци.">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="icon" type="image/png" href="static/img/favicon.png">
+</head>
+<body>
+
+<header>
+  <nav class="navbar" aria-label="Основна навігація">
+    <ul class="nav-links">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="catalogue.html" class="active" aria-current="page">Каталог</a></li>
+      <li><a href="portfolio.html">Портфоліо</a></li>
+      <li><a href="contacts.html">Контакти</a></li>
+    </ul>
+    <button class="burger" aria-label="Відкрити меню" aria-expanded="false" aria-controls="primary-menu">&#9776;</button>
+  </nav>
+</header>
+
+<main>
+  <section class="catalogue-header">
+    <h1>Каталог меблів</h1>
+    <p>Оберіть категорію, щоб переглянути товари</p>
+  </section>
+
+  <section class="category-grid" id="primary-menu">
+    <!-- узгоджені з реально існуючими файлами -->
+    <a href="catalogue/kitchens.html" class="category-card" data-slug="kitchens">Кухні</a>
+    <a href="catalogue/wardrobes.html" class="category-card" data-slug="wardrobes">Шафи</a>
+    <a href="catalogue/commodes.html" class="category-card" data-slug="commodes">Комоди</a>
+    <a href="catalogue/living.html" class="category-card" data-slug="living">Вітальні</a>
+    <a href="catalogue/shelves.html" class="category-card" data-slug="shelves">Полки</a>
+    <a href="catalogue/beds.html" class="category-card" data-slug="beds">Ліжка</a>
+    <a href="catalogue/sofas.html" class="category-card" data-slug="sofas">Дивани</a>
+    <a href="catalogue/mattresses.html" class="category-card" data-slug="mattresses">Матраси</a>
+    <a href="catalogue/tables.html" class="category-card" data-slug="tables">Столи</a>
+    <a href="catalogue/cabinets.html" class="category-card" data-slug="cabinets">Тумби</a>
+    <!-- якщо буде окрема сторінка для тумб, додай файл: catalogue/nightstands.html -->
+    <!-- <a href="catalogue/nightstands.html" class="category-card" data-slug="nightstands">Тумби</a> -->
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Корал. Всі права захищені.</p>
+</footer>
+
+<script src="static/js/main.js"></script>
+<script>
+  // Проста логіка для бургера (додай стилі .nav-open у CSS)
+  const burger = document.querySelector('.burger');
+  const menu = document.getElementById('primary-menu');
+  burger.addEventListener('click', () => {
+    const expanded = burger.getAttribute('aria-expanded') === 'true';
+    burger.setAttribute('aria-expanded', String(!expanded));
+    document.body.classList.toggle('nav-open');
+  });
+</script>
+
+</body>
+</html>

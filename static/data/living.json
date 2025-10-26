@@ -1,0 +1,18 @@
+[
+  {
+    "id": "living-001",
+    "name": "Вітальня Family",
+    "price": 28000,
+    "image": "../static/img/living/family.jpg",
+    "description": "Комплект меблів для вітальні у сучасному стилі.",
+    "tags": ["вітальня", "сучасний", "комплект"]
+  },
+  {
+    "id": "living-002",
+    "name": "Вітальня Classic",
+    "price": 35000,
+    "image": "../static/img/living/classic.jpg",
+    "description": "Класичний набір меблів для вітальні з дерев’яними фасадами.",
+    "tags": ["classic", "дерево", "вітальня"]
+  }
+]

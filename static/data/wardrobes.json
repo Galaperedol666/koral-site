@@ -1,0 +1,18 @@
+[
+  {
+    "id": "wardrobe-001",
+    "name": "Шафа-купе Modern",
+    "price": 18000,
+    "image": "../static/img/wardrobes/modern.jpg",
+    "description": "Шафа-купе з дзеркальними дверима та алюмінієвим профілем.",
+    "tags": ["шафа-купе", "дзеркало", "сучасний"]
+  },
+  {
+    "id": "wardrobe-002",
+    "name": "Шафа Classic",
+    "price": 22000,
+    "image": "../static/img/wardrobes/classic.jpg",
+    "description": "Класична шафа з дерев’яними фасадами та різьбленням.",
+    "tags": ["classic", "дерево", "різьблення"]
+  }
+]

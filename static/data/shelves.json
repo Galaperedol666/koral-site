@@ -1,0 +1,18 @@
+[
+  {
+    "id": "shelf-001",
+    "name": "Полиця настінна",
+    "price": 1200,
+    "image": "../static/img/shelves/wall.jpg",
+    "description": "Компактна настінна полиця з дуба.",
+    "tags": ["полиця", "настінна", "дерево"]
+  },
+  {
+    "id": "shelf-002",
+    "name": "Полиця Loft",
+    "price": 1800,
+    "image": "../static/img/shelves/loft.jpg",
+    "description": "Полиця у стилі лофт з металевим каркасом.",
+    "tags": ["loft", "метал", "полиця"]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "commode-001",
+    "name": "Комод Milano",
+    "price": 9500,
+    "image": "../static/img/commodes/milano.jpg",
+    "description": "Стильний комод з трьома шухлядами у світлих тонах.",
+    "tags": ["комод", "світлий", "мінімалізм"]
+  },
+  {
+    "id": "commode-002",
+    "name": "Комод Retro",
+    "price": 11000,
+    "image": "../static/img/commodes/retro.jpg",
+    "description": "Комод у ретро стилі з дерев’яними ніжками.",
+    "tags": ["ретро", "дерево", "комод"]
+  }
+]

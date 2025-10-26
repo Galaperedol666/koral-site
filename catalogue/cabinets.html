@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Тумби — Корал</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="../index.html">Головна</a></li>
+      <li><a href="../catalogue.html">Каталог</a></li>
+      <li><a href="../portfolio.html">Портфоліо</a></li>
+      <li><a href="../contacts.html">Контакти</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="catalogue-header">
+    <h1>Тумби</h1>
+    <p>Оберіть стиль, який пасує саме вам</p>
+  </section>
+
+  <section class="catalogue-filters">
+    <div class="filter-group">
+      <label for="filter-sort">Сортувати:</label>
+      <select id="filter-sort">
+        <option value="default">Без сортування</option>
+        <option value="price-asc">Ціна ↑</option>
+        <option value="price-desc">Ціна ↓</option>
+        <option value="name-asc">Назва A–Z</option>
+        <option value="name-desc">Назва Z–A</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="catalogue-grid" id="product-list">
+    <!-- JS рендерить товари сюди -->
+  </section>
+</main>
+  <!-- Модальне вікно -->
+<div id="product-modal" class="modal">
+  <div class="modal-content"></div>
+</div>
+
+<footer>
+  <p>© 2025 Корал. Всі права захищені.</p>
+</footer>
+
+<script>
+  const jsonPath = "../static/data/cabinets.json";
+</script>
+<script src="../static/js/render-products.js"></script>
+</body>
+</html>

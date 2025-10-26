@@ -1,0 +1,18 @@
+[
+  {
+    "id": "kitchen-001",
+    "name": "Кухня Loft",
+    "price": 25000,
+    "image": "../static/img/kitchens/loft.jpg",
+    "description": "Сучасна кухня у стилі лофт з матовими фасадами та дерев’яною стільницею.",
+    "tags": ["loft", "модерн", "дерево"]
+  },
+  {
+    "id": "kitchen-002",
+    "name": "Кухня Classic",
+    "price": 32000,
+    "image": "../static/img/kitchens/classic.jpg",
+    "description": "Класична кухня з фрезерованими фасадами та світлою палітрою.",
+    "tags": ["classic", "білий", "фрезеровані фасади"]
+  }
+]

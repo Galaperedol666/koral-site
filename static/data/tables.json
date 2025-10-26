@@ -1,0 +1,18 @@
+[
+  {
+    "id": "table-001",
+    "name": "Стіл обідній",
+    "price": 7000,
+    "image": "../static/img/tables/dining.jpg",
+    "description": "Обідній стіл на 6 персон з масиву дуба.",
+    "tags": ["стіл", "обідній", "дерево"]
+  },
+  {
+    "id": "table-002",
+    "name": "Стіл Loft",
+    "price": 6500,
+    "image": "../static/img/tables/loft.jpg",
+    "description": "Стіл у стилі лофт з металевим каркасом.",
+    "tags": ["loft", "стіл", "метал"]
+  }
+]
