@@ -20,44 +20,98 @@ collections:
   - name: "wardrobes"
     label: "Шафи"
     file: "static/data/wardrobes.json"
-    fields: *id [same as above]*
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "commodes"
     label: "Комоди"
     file: "static/data/commodes.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "living"
     label: "Вітальні"
     file: "static/data/living.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "shelves"
     label: "Полки"
     file: "static/data/shelves.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "beds"
     label: "Ліжка"
     file: "static/data/beds.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "sofas"
     label: "Дивани"
     file: "static/data/sofas.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "mattresses"
     label: "Матраци"
     file: "static/data/mattresses.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "tables"
     label: "Столи"
     file: "static/data/tables.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
 
   - name: "cabinets"
     label: "Тумби"
     file: "static/data/cabinets.json"
-    fields: *id
+    fields:
+      - { name: "id", label: "ID", widget: "string" }
+      - { name: "name", label: "Назва", widget: "string" }
+      - { name: "price", label: "Ціна", widget: "number" }
+      - { name: "image", label: "Зображення", widget: "image" }
+      - { name: "description", label: "Опис", widget: "text" }
+      - { name: "tags", label: "Теги", widget: "list" }
